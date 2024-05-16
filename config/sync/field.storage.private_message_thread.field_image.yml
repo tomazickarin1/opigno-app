@@ -1,0 +1,32 @@
+uuid: 776eedc4-43cc-4140-b0fe-b95e94a985e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - private_message
+_core:
+  default_config_hash: mJeX2WOasVmAMVJuX1MAkkXfRjbmSJ4Kwid-F2ZqEVU
+id: private_message_thread.field_image
+field_name: field_image
+entity_type: private_message_thread
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

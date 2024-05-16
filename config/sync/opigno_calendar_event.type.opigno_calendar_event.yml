@@ -1,0 +1,10 @@
+uuid: 4252fa4d-452c-42cc-8216-01719af331ae
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: I67r382Shv1NXDfQ-RrHwLNIygH8G7LyzBpousZb40U
+id: opigno_calendar_event
+label: 'Opigno calendar event'
+description: 'A generic event for the Opigno calendar.'
+date_field_type: daterange

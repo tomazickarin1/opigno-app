@@ -24,3 +24,10 @@
 /.env
 /.editorconfig
 /.gitattributes
+# Ignore .htaccess files
+*.htaccess
+
+# Ignore .sql.gz files
+*.sql.gz
+
+.DS_Store

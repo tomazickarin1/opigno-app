@@ -1,0 +1,20 @@
+uuid: d025f2b7-1ed3-4054-937d-91e2b968a33d
+langcode: en
+status: true
+dependencies:
+  module:
+    - opigno_dashboard
+    - opigno_module
+    - opigno_statistics
+_core:
+  default_config_hash: eK9nGeLabTfm6KOJPu0z0Nzdh3ub7vuNORltKWnXpO0
+id: statistics_reader
+label: 'Statistics manager'
+weight: -7
+is_admin: null
+permissions:
+  - 'opigno dashboard layout access'
+  - 'view any group statistics'
+  - 'view any user statistics'
+  - 'view global statistics'
+  - 'view module results'

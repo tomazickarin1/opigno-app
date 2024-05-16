@@ -1,0 +1,10 @@
+uuid: 51e76d84-ebc9-4890-bbc8-0b1ca4a2bdba
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yVage0GZo5gaygqaJebKBcfih-_zv2a0V98XfH9urs
+name: Skills
+vid: skills
+description: 'Use this taxonomy to manage the available skills associated to activities'
+weight: 0

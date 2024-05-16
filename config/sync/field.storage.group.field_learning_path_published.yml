@@ -1,0 +1,20 @@
+uuid: fda85e0b-c696-4c28-b4e3-29387a07b4f7
+langcode: en
+status: true
+dependencies:
+  module:
+    - group
+_core:
+  default_config_hash: NPmPV3o1h_OvCPB2duX-ZYurNvi8B69HXMuBSEX55sM
+id: group.field_learning_path_published
+field_name: field_learning_path_published
+entity_type: group
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

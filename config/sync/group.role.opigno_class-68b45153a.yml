@@ -1,0 +1,17 @@
+uuid: 668fbcde-d87b-4ee1-84a3-6f89b1cc82c5
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_class
+  enforced:
+    config:
+      - user.role.collaborative_features
+id: opigno_class-68b45153a
+label: 'Live meeting manager'
+weight: -8
+internal: true
+audience: outsider
+group_type: opigno_class
+permissions_ui: false
+permissions: {  }

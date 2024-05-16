@@ -1,0 +1,21 @@
+uuid: 6c064b1c-326e-4e67-8ac6-1e0b9f278896
+langcode: en
+status: true
+dependencies:
+  module:
+    - link
+    - media
+_core:
+  default_config_hash: 7QgTafobszuVFl2hhFkWAwMYvNvJuVd4JETvvNsHE2g
+id: media.opigno_moxtra_recording_link
+field_name: opigno_moxtra_recording_link
+entity_type: media
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

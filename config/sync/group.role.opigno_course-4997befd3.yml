@@ -1,0 +1,17 @@
+uuid: 94b48369-5956-4c1a-9629-8e443ad4a786
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_course
+  enforced:
+    config:
+      - user.role.student
+id: opigno_course-4997befd3
+label: Student
+weight: 3
+internal: true
+audience: outsider
+group_type: opigno_course
+permissions_ui: false
+permissions: {  }

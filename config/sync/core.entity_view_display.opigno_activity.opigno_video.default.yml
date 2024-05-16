@@ -1,0 +1,48 @@
+uuid: 87878112-c8f9-4be8-85a7-0d38792e5c8a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.opigno_activity.opigno_video.field_external_video
+    - field.field.opigno_activity.opigno_video.field_video
+    - opigno_module.opigno_activity_type.opigno_video
+  module:
+    - video
+_core:
+  default_config_hash: Mjgnn2MOFruWuavfv9DmJljkOcPqONM2aS3tEpBg0to
+id: opigno_activity.opigno_video.default
+targetEntityType: opigno_activity
+bundle: opigno_video
+mode: default
+content:
+  field_external_video:
+    weight: 2
+    label: hidden
+    settings:
+      width: '854'
+      height: '480'
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_player
+    region: content
+  field_video:
+    weight: 3
+    label: hidden
+    settings:
+      width: '854'
+      height: '480'
+      controls: true
+      autoplay: true
+      preload: none
+      loop: false
+      muted: false
+    third_party_settings: {  }
+    type: video_player_list
+    region: content
+hidden:
+  entity_print_view_epub: true
+  entity_print_view_pdf: true
+  entity_print_view_word_docx: true
+  name: true
+  search_api_excerpt: true
+  uid: true

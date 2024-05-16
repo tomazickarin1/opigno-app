@@ -1,0 +1,16 @@
+uuid: 8b9f44d9-6ba4-4964-bdee-6d365e6d714e
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_class
+_core:
+  default_config_hash: jBuA4fsBQE0OI18oRIqV4H_Ppqz1ijEplkAixTSm1ZY
+id: opigno_class-anonymous
+label: Anonymous
+weight: -102
+internal: true
+audience: anonymous
+group_type: opigno_class
+permissions_ui: true
+permissions: {  }

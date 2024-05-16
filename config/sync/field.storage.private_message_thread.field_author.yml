@@ -1,0 +1,22 @@
+uuid: 64173f95-1ae7-4f1e-9529-a180bec27225
+langcode: en
+status: true
+dependencies:
+  module:
+    - private_message
+    - user
+_core:
+  default_config_hash: oNzOMB1rio0iHY_azN84GN-rO6hfF-19DPgK570hib4
+id: private_message_thread.field_author
+field_name: field_author
+entity_type: private_message_thread
+type: entity_reference
+settings:
+  target_type: user
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
