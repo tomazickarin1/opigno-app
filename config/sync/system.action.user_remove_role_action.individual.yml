@@ -1,0 +1,14 @@
+uuid: b9538d3a-125d-4078-9910-73fc96634582
+langcode: en
+status: true
+dependencies:
+  config:
+    - user.role.individual
+  module:
+    - user
+id: user_remove_role_action.individual
+label: 'Remove the individual role from the selected user(s)'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: individual

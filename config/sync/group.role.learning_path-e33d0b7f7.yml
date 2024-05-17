@@ -1,0 +1,17 @@
+uuid: 959ce107-d718-4942-b559-feb43bd624fc
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+  enforced:
+    config:
+      - user.role.teacher
+id: learning_path-e33d0b7f7
+label: Teacher
+weight: 5
+internal: true
+audience: outsider
+group_type: learning_path
+permissions_ui: false
+permissions: {  }

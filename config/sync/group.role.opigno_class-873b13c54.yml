@@ -1,0 +1,17 @@
+uuid: 15ad8519-1501-4b13-b16d-f99f19b33efb
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_class
+  enforced:
+    config:
+      - user.role.individual
+id: opigno_class-873b13c54
+label: individual
+weight: 4
+internal: true
+audience: outsider
+group_type: opigno_class
+permissions_ui: false
+permissions: {  }

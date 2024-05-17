@@ -1,0 +1,5 @@
+name: 'SchoolOnline Custom Theme'
+type: theme
+description: 'My custom theme based on Aristotle theme.'
+core_version_requirement: ^9 || ^10
+base theme: aristotle

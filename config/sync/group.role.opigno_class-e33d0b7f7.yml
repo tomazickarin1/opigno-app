@@ -1,0 +1,17 @@
+uuid: b1c00a8f-d9da-4ac2-9b6c-b41a83ad6135
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.opigno_class
+  enforced:
+    config:
+      - user.role.teacher
+id: opigno_class-e33d0b7f7
+label: Teacher
+weight: 5
+internal: true
+audience: outsider
+group_type: opigno_class
+permissions_ui: false
+permissions: {  }

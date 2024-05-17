@@ -1,0 +1,17 @@
+uuid: 7ca9320a-27e5-419a-aa04-a42b6a46b7b6
+langcode: en
+status: true
+dependencies:
+  config:
+    - group.type.learning_path
+  enforced:
+    config:
+      - user.role.individual
+id: learning_path-873b13c54
+label: individual
+weight: 4
+internal: true
+audience: outsider
+group_type: learning_path
+permissions_ui: false
+permissions: {  }

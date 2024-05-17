@@ -1,0 +1,9 @@
+uuid: 4df84f6f-8155-4db8-8589-334bc837baeb
+langcode: en
+status: true
+dependencies: {  }
+id: individual
+label: individual
+weight: 4
+is_admin: null
+permissions: {  }
